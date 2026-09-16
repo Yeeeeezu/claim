@@ -1,0 +1,14 @@
+{
+  "name": "claim",
+  "version": "0.1.0",
+  "description": "decode and inspect JWT tokens",
+  "type": "module",
+  "bin": { "claim": "dist/cli.js" },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
